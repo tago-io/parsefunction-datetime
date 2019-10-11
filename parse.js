@@ -1,6 +1,7 @@
 /**
   This code checks when given variable is being insert in the device.
   if it's between 7 am and 9 am it will ignore the data.
+  You can understand more about the Moment.js library in the following link: https://momentjs.com/docs/
 
   To test this code, use the device emulator to post a "humidity" variable
 **/
