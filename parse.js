@@ -18,7 +18,7 @@ if (humidityItem) {
    // we can print to Live Inspector for debugging.
   // console.log(`Humidty variable current hour is: ${humidityHour}`);
 
-  if (hour >= 7 && hour <= 9) {
+  if (humidityHour >= 7 && humidityHour <= 9) {
     payload = []; // empty the payload and ignores all variables from this packet.
   }
 }
